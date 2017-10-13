@@ -29,3 +29,7 @@ Use `console.log` to print the variable **someString** to the terminal.
 Check to see if your program is correct by running this command:
 
 `javascripting verify strings.js`
+
+---
+
+[Index](#) 

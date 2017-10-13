@@ -31,3 +31,7 @@ Then use `console.log()` to print the `example` variable to the console.
 Check to see if your program is correct by running this command:
 
 `javascripting verify variables.js`
+
+---
+
+[Index](#) 

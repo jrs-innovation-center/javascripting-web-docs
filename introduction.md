@@ -41,3 +41,7 @@ By the way, throughout this tutorial, you can give the file you work with any na
 ```bash
 javascripting verify catsAreAwesome.js
 ```
+
+---
+
+[Index](#) 

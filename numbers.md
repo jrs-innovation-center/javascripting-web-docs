@@ -13,3 +13,7 @@ Use `console.log()` to print that number to the terminal.
 Check to see if your program is correct by running this command:
 
 `javascripting verify numbers.js`
+
+---
+
+[Index](#) 

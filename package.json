@@ -1,0 +1,23 @@
+{
+  "name": "coffee-and-code-2hr",
+  "version": "1.0.0",
+  "description": "These are docs of the javascripting node-school.io docs.",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve -s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrs-innovation-center/javascripting-web-docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrs-innovation-center/javascripting-web-docs/issues"
+  },
+  "homepage": "https://github.com/jrs-innovation-center/javascripting-web-docs#readme",
+  "dependencies": {
+    "serve": "^6.2.0"
+  }
+}

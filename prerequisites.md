@@ -66,3 +66,7 @@ Include the name `javascripting` and the name of the challenge you're working on
 ## Get Involved
 
 See [https://github.com/workshopper/javascripting](https://github.com/workshopper/javascripting)
+
+---
+
+[Index](#) 

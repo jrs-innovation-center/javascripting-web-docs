@@ -27,3 +27,7 @@ Use `console.log()` to print the results of the `.replace()` method to the termi
 Check to see if your program is correct by running this command:
 
 `javascripting verify revising-strings.js`
+
+---
+
+[Index](#) 

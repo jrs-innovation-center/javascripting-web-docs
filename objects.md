@@ -30,3 +30,7 @@ Check to see if your program is correct by running this command:
 ```bash
 javascripting verify objects.js
 ```
+
+---
+
+[Index](#) 

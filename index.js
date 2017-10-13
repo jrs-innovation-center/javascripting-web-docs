@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import { BrowserRouter, Route } from 'react-router-dom'
+import { HashRouter, Route } from 'react-router-dom'
 import 'github-markdown-css'
 
 import Markdown from 'react-remarkable'
@@ -22,9 +22,9 @@ const Show = lifecycle({
   return (
     <div className="flex flex-column vh-100">
       <div className="h3 bg-black-80 white">
-        <h1 className="avenir tc tracked ttu">{title}</h1>
+        <h1 className="avenir tc tracked ttu animated lightSpeedIn">{title}</h1>
       </div>
-      <div className="markdown-body vh-100 pa2 overflow-scroll">
+      <div className="markdown-body vh-100 pa2 overflow-scroll animated fadeIn">
         <Markdown
           options={{
             html: true,
@@ -51,12 +51,12 @@ const Show = lifecycle({
 })
 
 const App = () => (
-  <BrowserRouter>
+  <HashRouter>
     <div>
       <Route exact path="/" component={Show} />
       <Route path="/:page" component={Show} />
     </div>
-  </BrowserRouter>
+  </HashRouter>
 )
 
 ReactDOM.render(<App />, document.getElementById('app'))
